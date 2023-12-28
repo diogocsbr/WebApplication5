@@ -71,7 +71,7 @@ namespace WebApplication5.Controllers
         }
 
         [HttpGet]
-        [Route("Teste5")]
+        [Route("Teste55")]
         public IEnumerable<WeatherForecast> Get5()
         {
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
